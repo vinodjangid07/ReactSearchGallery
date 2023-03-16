@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+*::selection {
+  background-color: gray;
+}
+
+*::-moz-selection {
+  background: gray;
+}
+
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+:root{
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  cursor:default;
+}
+
+body{
+  background-color: black;
+  padding: 20px;
+  overflow-x: hidden;
+}
+.headerSection{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.logoDesign{
+  width: 30%;
+}
+.inputbox{
+  width: 80%;
+  height: 40px;
+  background-color: transparent;
+  color: white;
+  font-size: 2rem;
+  border: none;
+  border: 2px solid white;
+  margin: 50px auto;
+  padding: 0px 20px;
+  outline: none;
+  border-radius: 40px;
+}
+
+/* responsive code below*/
+@media screen and (max-width:1920px) {
+  html {
+      font-size: 60%;
+  }
+}
+
+@media screen and (max-width:1200px) {
+  html {
+      font-size: 60%;
+  }
+}
+
+@media screen and (max-width:998px) {
+  html {
+      font-size: 55%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  html {
+      font-size: 50%;
+  }
+  .logoDesign{
+    width: 100%;
+  }
+
+}
+
+@media screen and (max-width:500px) {
+  html {
+      font-size: 45%;  
+  }
+
+}
+
+@media screen and (max-width:430px) {
+  html {
+      font-size: 43%;
+  }
+}
+
+@media screen and (max-width:375px) {
+  html {
+      font-size: 40%;
+  }
+}
+@media screen and (max-width:300px) {
+  html {
+      font-size: 40%;
+  }
+}
+
+/* responsive code above */
+
